@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const projectID = 'aacc52aa-597f-4b09-b6a4-9c12b541b241';
+const projectID = 'api-key-from-chat-engine-api';
 
 const Log_in = () => {
   const [username, setUsername] = useState('');
