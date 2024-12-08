@@ -43,7 +43,7 @@ const DirectChat = () => {
         <ChatEngine
             height='100vh'
             width='100vw'
-            projectID ='aacc52aa-597f-4b09-b6a4-9c12b541b241'
+            projectID ='api-key-from-chat-engine-api'
             // Accessing the locally stored username and password
             userName={localStorage.getItem('username')}
             userSecret ={localStorage.getItem('password')}
