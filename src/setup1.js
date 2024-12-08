@@ -6,7 +6,7 @@ const App = () => {
   return (
     <ChatEngine
       userName={localStorage.getItem('username')}
-      projectID = 'aacc52aa-597f-4b09-b6a4-9c12b541b241'
+      projectID = 'api-key-from-chat-engine-api'
       userSecret={localStorage.getItem('password')}
     />
   )
